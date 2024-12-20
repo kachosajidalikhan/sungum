@@ -9,7 +9,6 @@ const Tab = () => {
     const navItems = [
         { name: "Details", to: "details" },
         { name: "Pricing", to: "pricing" },
-        { name: "Reviews", to: "reviews" },
     ];
 
     return (

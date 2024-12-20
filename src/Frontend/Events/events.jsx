@@ -16,7 +16,7 @@ const EventCard = ({ imageUrl, title, price, detailsLink,eventId }) => {
             {"⭐".repeat(5)} {/* Display 5 stars */}
           </p>
           <p className="mb-2">
-            <span className="price mr-1">${price}</span>
+            <span className="price mr-1">PKR.{price}</span>
           </p>
           <h3 className="mb-3">
             <a href="#">{title}</a>
@@ -41,25 +41,25 @@ const EventsSection = () => {
       eventId: 1,
       imageUrl: "images/birthday.jpg",
       title: "Birthday Celebration",
-      price: 120.0,
+      price: 25000,
     },
     {
       eventId: 2,
       imageUrl: "images/wedding.jpg",
       title: "Marrage Cermany",
-      price: 220.0,
+      price: 25000,
     },
     {
       eventId: 3,
       imageUrl: "images/conference.jpg",
       title: "Conference Hall",
-      price: 200.0,
+      price: 25000,
     },
     {
       eventId: 4,
       imageUrl: "images/other.jpg",
       title: "Other Events",
-      price: 100.0,
+      price: 25000,
     },
   ];
 

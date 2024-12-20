@@ -18,7 +18,7 @@ const RoomDetail = () => {
           roomId: 1,
           imageUrl: ["room-4.jpg", "room-5.jpg", "room-6.jpg", "room-3.jpg"],
           title: "King Room",
-          price: 120.0,
+          price: 10000,
           roomStatus: 'Available',
           description: 'Experience luxury and comfort in our Deluxe Ocean View Suite.This spacious room offers breathtaking views of the ocean, modern amenities, and a private balcony for your relaxation.',
         },
@@ -26,7 +26,7 @@ const RoomDetail = () => {
             roomId: 2,
           imageUrl: ["room-4.jpg", "room-5.jpg", "room-6.jpg", "room-3.jpg"],
           title: "Suite Room",
-          price: 120.0,
+          price: 5000,
           roomStatus: 'Available',
           description: 'Experience luxury and comfort in our Deluxe Ocean View Suite.This spacious room offers breathtaking views of the ocean, modern amenities, and a private balcony for your relaxation.',
         },
@@ -34,7 +34,7 @@ const RoomDetail = () => {
             roomId: 3,
           imageUrl: ["room-4.jpg", "room-5.jpg", "room-6.jpg", "room-3.jpg"],
           title: "Family Room",
-          price: 120.0,
+          price: 12000,
           roomStatus: 'Booked',
           description: 'Experience luxury and comfort in our Deluxe Ocean View Suite.This spacious room offers breathtaking views of the ocean, modern amenities, and a private balcony for your relaxation.',
     
@@ -43,7 +43,7 @@ const RoomDetail = () => {
             roomId: 4,
           imageUrl: ["room-4.jpg", "room-5.jpg", "room-6.jpg", "room-3.jpg"],
           title: "Deluxe Room",
-          price: 120.0,
+          price: 8000,
           roomStatus: 'Available',
           description: 'Experience luxury and comfort in our Deluxe Ocean View Suite.This spacious room offers breathtaking views of the ocean, modern amenities, and a private balcony for your relaxation.',
     
@@ -52,7 +52,7 @@ const RoomDetail = () => {
             roomId: 5,
           imageUrl: ["room-4.jpg", "room-5.jpg", "room-6.jpg", "room-3.jpg"],
           title: "Luxury Room",
-          price: 120.0,
+          price: 10000,
           roomStatus: 'Available',
           description: 'Experience luxury and comfort in our Deluxe Ocean View Suite.This spacious room offers breathtaking views of the ocean, modern amenities, and a private balcony for your relaxation.',
     
@@ -61,7 +61,7 @@ const RoomDetail = () => {
             roomId: 6,
           imageUrl: ["room-4.jpg", "room-5.jpg", "room-6.jpg", "room-3.jpg"],
           title: "Superior Room",
-          price: 120.0,
+          price: 6000,
           roomStatus: 'Booked',
           description: 'Experience luxury and comfort in our Deluxe Ocean View Suite.This spacious room offers breathtaking views of the ocean, modern amenities, and a private balcony for your relaxation.',
     
@@ -167,8 +167,8 @@ const RoomDetail = () => {
                             <span className="text-[#293941]">{room.roomStatus} from Jun 1, 2024</span>
                         </div>
                         <div className="flex items-baseline gap-2 mb-4">
-                            <span className="text-[#c59a63] text-2xl font-bold">{room.price}</span>
-                            <span className="text-gray-600">per night</span>
+                            <span className="text-[#c59a63] text-2xl font-bold">PKR.{room.price}</span>
+                            <span className="text-gray-600">/per night</span>
                         </div>
                         <button onClick={()=>{nav('/room-booking-page')}} className="w-full py-2 bg-[#c59a63] text-white rounded-lg hover:bg-[#293941]">
                             Book Now

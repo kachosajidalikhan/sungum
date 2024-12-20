@@ -19,15 +19,16 @@ export default function Hero() {
   }, []);
 
   return (
-    <div className="relative w-full h-screen mb-5 overflow-hidden">
+    <div className="-mt-4 relative w-full h-screen mb-5 overflow-hidden">
       {/* Video Section */}
-      <div className="relative w-full h-full">
+      <div className="relative w-full h-screen">
         <video
           ref={videoRef}
-          className="absolute inset-0 w-full h-full object-cover"
+          className="absolute inset-0 w-full h-screen object-cover"
           autoPlay
           muted
           loop
+          playsInline
         >
           <source src="video.mp4" type="video/mp4" />
           Your browser does not support the video tag.

@@ -34,9 +34,9 @@ export default () => {
                   <div key={index} className="bg-gray-100 rounded-lg shadow-lg p-6">
                     <div className="text mb-4">
                       <p className="text-gray-600">
-                        A small river named Duden flows by their place and supplies it with
-                        the necessary regelialia. It is a paradisematic country, in which
-                        roasted parts of sentences fly into your mouth.
+                      SunGum Skardu is truly a paradise! The serene river nearby adds to the charm,
+                       and the hospitality here is unmatched.
+                       Every moment felt magical, and I can't wait to visit again!
                       </p>
                     </div>
                     <div className="flex items-center">
@@ -47,7 +47,7 @@ export default () => {
                         }}
                       ></div>
                       <div className="ml-4">
-                        <p className="text-[#293941] text-lg font-semibold">Gerald Hodson</p>
+                        <p className="text-[#293941] text-lg font-semibold">Asghar Ali</p>
                         <span className="text-gray-500">Businessman</span>
                       </div>
                     </div>

@@ -3,7 +3,6 @@ import { Link, Element } from "react-scroll";
 import Navbar from "./tab";
 import Details from "./details";
 import Pricing from "./pricing";
-import Reviews from "./review";
 import { useParams } from "react-router-dom";
 import "./event.css";
 
@@ -59,13 +58,6 @@ const EventsDetail = () => {
         {/* Pricing Section */}
         <Element name="pricing" className="section">
           <Pricing event={event} /> {/* Pass event as a prop */}
-        </Element>
-
-        <hr className="hr-location" />
-
-        {/* Reviews Section */}
-        <Element name="reviews" className="section">
-          <Reviews event={event} /> {/* Pass event as a prop */}
         </Element>
       </div>
     </div>

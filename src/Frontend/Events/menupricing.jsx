@@ -128,11 +128,11 @@ const MenuPricing = () => {
             </div>
 
             {/* Menu Details */}
-            <div className="menu-details w-full lg:w-1/3 space-y-4">
-                <h4 className="text-lg text-[#293941] font-semibold">{selectedMenu.categary}</h4>
-                <ul className="space-y-2">
+            <div className="menu-details p-4 bg-[#293941] w-full lg:w-1/3 space-y-4">
+                <h4 className="text-lg text-[#c59a63] border-b w-fit border-[#c59a63] font-semibold">{selectedMenu.categary}</h4>
+                <ul className="p-4 space-y-2">
                     {selectedMenu.items.map((item) => (
-                        <li key={item.name} className="flex justify-between items-center">
+                        <li key={item.name} className="flex text-[#c59a63] justify-between items-center">
                             <span>{item.name}</span>
                         </li>
                     ))}

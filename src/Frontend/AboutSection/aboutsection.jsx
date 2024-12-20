@@ -100,9 +100,11 @@ export default () => {
               SunGum Hotel & Event Management Company the Most Recommended Hotel In Skardu
               </h2>
               <p className="text-gray-600">
-                Far far away, behind the word mountains, far from the countries Vokalia and
-                Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
-                right at the coast of the Semantics, a large language ocean.
+              Nestled far away in the serene valleys of Skardu, beyond the majestic mountain ranges, 
+              lies SunGum. Far from the bustling cities, it stands as a haven of tranquility and elegance. 
+              In the heart of nature's beauty, 
+              SunGum brings together unforgettable hotel stays and meticulously crafted events, 
+              offering an experience as vast and inspiring as the surrounding landscapes.
               </p>
               
               <Link
